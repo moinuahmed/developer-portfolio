@@ -95,12 +95,15 @@ main{
     background-color:  #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;
+    text-align: center;
 
 
 }
 
 .section-title{
     text-align: center;
+    font-weight: 700;
+    font-size: 35px;
     margin-bottom: 30px;
 
 
@@ -111,5 +114,23 @@ main{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+    text-align: center;
 
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+
+}
+
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
