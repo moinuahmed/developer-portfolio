@@ -186,3 +186,14 @@ main{
     text-align: center;
 
 }
+
+.contact{
+    display: flex;
+    gap: 400px;
+    background-color: #fff8f3;
+    padding: 130px 200px;
+}
+
+.contact .section-title{
+    text-align: left;
+}
