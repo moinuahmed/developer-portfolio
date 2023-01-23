@@ -209,3 +209,18 @@ main{
     height: 64px;
  }
 
+ @media screen and (max-width:576px){
+    .skills-container{
+        flex-direction: column;
+    }
+    
+ }
+
+ @media screen and (min-width:577px) and (max-width:992px){
+    
+ }
+
+ .hide{
+    display: none;
+ }
+
