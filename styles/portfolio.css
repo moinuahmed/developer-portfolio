@@ -210,10 +210,26 @@ main{
  }
 
  @media screen and (max-width:576px){
-    .skills-container, .resume-content, .about-info-container, .contact{
+
+    .header{
+        background-image: none;
+    }
+
+
+    nav
+    .banner, 
+    .skills-container, 
+    .resume-content, 
+    .about-info-container,
+    .contact{
         flex-direction: column;
         gap: 20px
         padding:  10px, 20px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap:20px
     }
 
     .about, .contact
